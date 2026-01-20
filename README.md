@@ -10,6 +10,7 @@ The entire system runs end-to-end inside a single Google Colab notebook for ease
 of evaluation and reproducibility.
 
 ---
+
 ## Features
 - Structured dataset ingestion (CSV-based)
 - ETL pipeline including data cleaning, validation, and text chunking
@@ -18,6 +19,9 @@ of evaluation and reproducibility.
 - FAISS vector database for efficient similarity-based retrieval
 - RAG-based chatbot with strict dataset grounding and source awareness
 - Explicit handling of unanswerable questions to prevent hallucinations
+
+---
+
 ## Setup Instructions
 1. Open this notebook in Google Colab.
 2. Run all cells from top to bottom.
@@ -34,6 +38,6 @@ of evaluation and reproducibility.
 Example:
 ```python
 answer, sources = ask_question("What does the CPI report say about inflation?")
+Author
 
-## Author
-Divya Bajla
+Yashaswani
