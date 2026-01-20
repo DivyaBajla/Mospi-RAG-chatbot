@@ -35,5 +35,5 @@ Example:
 ```python
 answer, sources = ask_question("What does the CPI report say about inflation?")
 
-Author
+## Author
 Divya Bajla
