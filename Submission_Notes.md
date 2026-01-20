@@ -7,7 +7,7 @@
 - Generated dense vector embeddings using SentenceTransformers and built an efficient similarity search index using FAISS.
 - Implemented a retrieval-aware question answering function where responses are strictly grounded in retrieved document context.
 - Added explicit handling for unanswerable questions, ensuring the system refuses to answer when relevant information is not present in the dataset.
-- The entire pipeline executes reproducibly within a single Jupyter Notebook, making it easy to run and evaluate without additional infrastructure.
+- The entire pipeline executes reproducibly within a single Google Collab Notebook, making it easy to run and evaluate without additional infrastructure.
 
 ## What Didn’t Work / Limitations
 
@@ -23,3 +23,4 @@
 - Expose the RAG system through a FastAPI service with clearly defined `/ask`, `/ingest`, and `/health` endpoints.
 - Build a simple web-based UI (e.g., Streamlit) to allow interactive querying and source inspection.
 - Dockerize the complete pipeline (scraper, ETL, vector store, API, and UI) to ensure portability and production-ready deployment.
+
